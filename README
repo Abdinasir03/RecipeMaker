@@ -2,8 +2,19 @@
 
 This is a Flask-based web application that allows users to search for recipes, view recipe details, manage their accounts, and view their search history.
 
-## Features
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [License](#license)
 
+## About
+The Recipe Search Application is designed to help users find and manage recipes. Users can register, log in, search for recipes using the Spoonacular API, view detailed recipe information, manage their accounts, and view or delete their search history.
+
+## Features
 - User registration and login
 - Search for recipes using the Spoonacular API
 - View detailed information about recipes
@@ -11,7 +22,6 @@ This is a Flask-based web application that allows users to search for recipes, v
 - View and delete search history
 
 ## Prerequisites
-
 - Python 3.12+
 - Flask
 - Flask-SQLAlchemy
@@ -69,7 +79,6 @@ This is a Flask-based web application that allows users to search for recipes, v
     The application will be available at `http://127.0.0.1:5000`.
 
 ## Usage
-
 - **Register:** Create a new user account.
 - **Login:** Log in to your account.
 - **Search Recipes:** Use the search bar to find recipes.
@@ -77,7 +86,6 @@ This is a Flask-based web application that allows users to search for recipes, v
 - **Dashboard:** Manage your account and view or delete your search history.
 
 ## API Endpoints
-
 - **Register:** `POST /api/register`
 - **Login:** `POST /api/login`
 - **Search Recipes:** `POST /api/search`
@@ -86,5 +94,4 @@ This is a Flask-based web application that allows users to search for recipes, v
 - **Delete Search History:** `DELETE /delete_search_history/<int:item_id>`
 
 ## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
