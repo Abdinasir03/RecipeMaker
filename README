@@ -1,8 +1,33 @@
 # Recipe Search Application
 
-This is a Flask-based web application that allows users to search for recipes, view recipe details, manage their accounts, and view their search history.
+This is a Flask-based web application designed to help users find recipes, view recipe details, manage their accounts, and keep track of their search history.
 
 ## Features
+
+- **User registration and login**: Secure user access to the application.
+- **Search for recipes**: Utilize the Spoonacular API to find recipes based on user input.
+- **View detailed information about recipes**: Display recipes with instructions, ingredients, and cooking times.
+- **Manage user account**: Options to change passwords and delete accounts.
+- **View and delete search history**: Keep track of past searches and remove unnecessary entries.
+
+## Prerequisites
+
+- **Python 3.12+**: Ensure you have a compatible version of Python installed.
+- **Flask**: A micro web framework for Python.
+- **Flask-SQLAlchemy**: For database management in Flask.
+- **Flask-Login**: Handle user authentication and sessions.
+- **Flask-Migrate**: Manage and apply database migrations.
+- **python-dotenv**: Load environment variables from a `.env` file.
+- **spoonacular**: Python wrapper for the Spoonacular API.
+
+## Setup
+
+### 1. Clone the repository:
+
+```sh
+git clone https://github.com/yourusername/recipe-search-app.git
+cd recipe-search-app
+
 
 - User registration and login
 - Search for recipes using the Spoonacular API
