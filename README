@@ -15,6 +15,7 @@ This is a Flask-based web application that allows users to search for recipes, v
 The Recipe Search Application is designed to help users find and manage recipes. Users can register, log in, search for recipes using the Spoonacular API, view detailed recipe information, manage their accounts, and view or delete their search history.
 
 ## Features
+
 - User registration and login
 - Search for recipes using the Spoonacular API
 - View detailed information about recipes
@@ -94,4 +95,5 @@ The Recipe Search Application is designed to help users find and manage recipes.
 - **Delete Search History:** `DELETE /delete_search_history/<int:item_id>`
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
